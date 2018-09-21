@@ -1,0 +1,115 @@
+\documentclass[10pt,twoside,openany]{report}
+%\documentclass[10pt]{llncs}
+%\usepackage{llncsdoc}
+\usepackage{lipsum}
+\usepackage{amsmath,amssymb}
+\usepackage{physics}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{listing}
+
+\usepackage[bottom=0.75in,right=0.75in,left=0.75in]{geometry}
+\usepackage{booktabs}   %% For formal tables:
+                        %% http://ctan.org/pkg/booktabs
+\usepackage{subcaption} %% For complex figures with subfigures/subcaptions
+                        %% http://ctan.org/pkg/subcaption
+\usepackage{enumitem}
+% \usepackage{minted}
+% \newminted{fortran}{fontsize=\footnotesize}
+
+\usepackage{xargs}
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=blue,
+    filecolor=blue,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\usepackage{epsfig}
+\usepackage{tabularx}
+\usepackage{latexsym}
+\newtheorem{lemma}{Lemma}
+\newtheorem{observation}{Observation}
+\newtheorem{proof}{Proof}
+\newtheorem{definition}{Definition}
+\newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+
+\def\qed{$\Box$}
+\def\proof{\textit{Proof. }}
+\newtheorem{corollary}{Corollary}
+\newtheorem{theorem}{Theorem}
+\newtheorem{notation}{Notation}
+
+
+\newcommand{\textbb}[1]{$\mathbb{#1}$}
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\levicevita}{\mathcal{E}}
+
+% \newcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
+%                     \thispagestyle{plain}%
+%                     \global\@topnum\z@
+%                     \@afterindentfalse
+%                     \secdef\@chapter\@schapter}
+
+\title{Verified Computer Programs and Type Theory - A short report}
+\author{Satyendra Kumar Banjare (16115102)}
+\date{20-09-2018}
+
+\begin{document}
+
+\maketitle
+
+\include{abstract}
+
+
+\tableofcontents
+
+\include{abstract-algebra}
+\include{history-and-introduction}
+\include{computer-architecture}
+\include{compilers}
+\include{type-systems}
+\include{proving}
+\include{proof-assistants}
+\include{programming-languages}
+\include{language-verification}
+\include{stack-verification}
+
+\include{quantum-computing-overview}
+\include{qc-programming-languages}
+\include{interplay-qc-tt}
+\include{applications-in-ml}
+
+\chapter*{Bibliography}
+\lipsum[1]
+\lipsum[0]
+
+\end{document}
+
+% \item Type theory - History \& Overview 
+% \item Lambda Calculus
+% \item Computer Architecture - Overview
+% \item Compilers and Codegen
+% \item Compiler Optimization
+% \item Abstract Binding Trees \& Type System
+% \item Imperative \& Functional Programming languages
+% \item Embedded Languages \& untyped languages
+% \item Proof Generation \& Proof Assistants
+% \item Language Verificaton
+% \item Quantum computing \& Qubits
+% \item Quantum computing programming languages
+% \item Advancements in Q\# and QASM
+% \item Interplay of Type theory \& Quantum computing languages*
+% \item Applications in Machine learning* 
+
+
+% abstract-algebra.tex    book.cls                   history-and-introduction.tex  lec-4.tex  main.tex              proving.tex       stack-verification.tex
+% abstract.tex            compilers.tex              interplay-qc-tt.tex           LICENSE    Makefile     qc-programming-languages.tex type-systems.tex
+% applications-in-ml.tex  computer-architecture.tex  language-verification.tex     main.pdf   proof-assistants.tex  quantum-computing-overview.tex 
+% programming-languages.tex

@@ -1,3 +1,37 @@
 \chapter{Introduction and History }
-\lipsum[1]
-\lipsum[0]
+
+In mathematics, logic, and thoretical computer science, a \textit{Type System} is any of a class of formal systems, some of which can serve as alternatives to set theory. We consider every "\textit{object}" has a "type" and various operations are restricted to the objects of only a certain type.\\
+
+\textbf{Type Theory} is closely related to (and in some cases overlaps with) type systems, which are a \textit{programming language feature} used to reduce bugs. Type theory was created to avoid paradoxes in a variety of formal logics and to rewrite systems. It describes the correctness of step-by-step working of an abstract model of machine. This along with complexity theory does constitute the system theory for complete functioning of any computational machine.\\
+
+The systematic search for the foundations of mathematics started at the end of the 19th century and formed a new mathematical discipline called mathematical logic, with strong links to theoretical computer science. It went through a series of crises with paradoxical results, until the discoveries stabilized during the 20th century as a large and coherent body of mathematical knowledge with several aspects or components ( \textit{set theory, model theory, proof theory, etc.} ), whose detailed properties and possible variants are still an active research field. \textit{Stephan Wolfram} in his book titled \underline{New Kind of Science} explores the computational aspects of machine and tries to focus on the idea that simple systems can actually reason perfectly for complex behaviour of a large systems. Classical examples of simple Cellular Automaton* and Turing-Complete machines have been studied.\\
+
+Type theory in a similar sense argues that complex working can be induced from logic constraints of simpler systems. A small Type system can thus account for type-safe* behaviour of a computer system. Now for better comprehension we use the concept of $(\lambda)$-calculus to combine abstraction of type models. In mathematics, two well-known type theories that can serve as logic foundation for a system are \textit{Alonzo Church's} \textbf{ typed $(\lambda)$-calculus} and \textit{Per Martin-Lof's } \textbf{intuitionistic type theory}. 
+
+\section{$\lambda$-Calculus}
+
+Lambda calculus is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution. It is a universal model of computation that can be used to simulate any Turing machine. It was first introduced by mathematician Alonzo Church in the 1930s as part of his research of the foundations of mathematics. It consists of constructing lambda terms and performing reduction operations on them. Reduction Operations consist of $\alpha and \beta $ transformations. The former deals with renaming bound variable's name and second with replacing the bound variable with the argument expression in the body of the abstraction.It follows left associtivity i.e \textit{fgh} is just syntactic sugar (alternate form of represetation ) for \textit{(fg)h}.\\
+
+example : ($\lambda$x.x y)($\lambda$y.y z) $\longrightarrow$ {}$_\beta$($\lambda$y.y z)y $\longrightarrow$ {}$_\beta$y z.
+
+\section{Intuitional Type theory} 
+
+Intuitionistic type theory (also known as constructive type theory, or Martin-Löf type theory) has mathematical constructs  built to follow a one-to-one correspondence with logical connectives. For example, the logical connective called implication ( { A$\implies$ B} ) corresponds to the type of a function ( { A$\to$ B}). This correspondence is called the \textit{Curry $–$ Howard isomorphism}. Previous type theories had also followed this isomorphism, but Martin-Lof's was the first to extend it to predicate logic by introducing dependent types.\\
+
+\hfill \break \textbf{Machine Assisted Proving} dates back as early as 1976 when the four color theorem was verified using a computer program. Butterfly Effect's discovery also was possible due to computer simulation of program with given some finite initial states. Most computer-aided proofs to date have been implementations of large \textit{Proofs-By-Case} of a mathematical theorem. It is also called as \textit{Proof-By-Induction}  where child cases are considered first in an attempt to fully prove a theorm. Attempts have also been made in the area of \textit{Artificial Intelligence} research to create smaller, explicit, new proofs of mathematical theorems from the bottom up using machine reasoning techniques such as \textit{heuristic search}.\\
+
+Such automated theorem provers have proved a number of new results and found new proofs for known theorems. Additionally, interactive proof assistants allow mathematicians to develop human-readable proofs which are nonetheless formally verified for correctness.   
+
+
+\section{Proof Assistants}
+
+In computer science and mathematical logic, a proof assistant or interactive theorem prover is a software tool to assist with the development of formal proofs by human-machine collaboration. This involves some sort of interactive proof editor, or other interface, with which a human can guide the search for proofs, the details of which are stored in, and some steps provided by, a computer. \\
+
+Machine theorem proving includes model checking, which, in the simplest case, involves brute-force enumeration of many possible states (although the actual implementation of model checkers requires much cleverness, and does not simply reduce to brute force). There are hybrid theorem proving systems which use model checking as an inference rule. There are also programs which were written to prove a particular theorem, with a (usually informal) proof that if the program finishes with a certain result, then the theorem is true.\\
+
+
+\hfill \break In the present Programming Language research, the correctness of \textit{Computer Programs} is proved using similar notions considering some "pre" and "post" cases. This idea can thus be extended to proving correctness of a programing language semantics. \\
+
+Currently the developments in Quantum Computing strongly uses these proof-based programming language mainly because of the completely random behaviour of a \textit{Quantum states} of \underline{Qubits}. All that we have are probablities of 
+existence of a given quantum state. Let's say we can we can organize the chaos to some extent by \textit{categorizing} those probabilities in few cases, then later operations and control logics will have to have an inductive transfer of the qubit's states. This is analogus to how we deal with things in Type theory. Therefore developing a strong typed abstract model will benefit quantum computing to a much bigger extent.\\
+

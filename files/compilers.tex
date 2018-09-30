@@ -1,9 +1,23 @@
 \chapter{Compilers}
 
-\section{Preprocessing}
+\textbf{Compilers} are that piece of software that \textit{translates} the programs in one language to other languages. They are different from \textbf{Assembler}. An assembler converts the assebly codes to final machines' instruction codes according to the ISA of the target computer hardware. Compilers are generally thought to convert higher level programs to low level programs. They are of different types like Cross compilers, Bootstrap Compilers (it comes under cross compilers)
+, Transilers and De-compilers. The basic operations carried by most of the compilers are :\\
+
 \section{Lexical Analysis}
-\section{Parsing}
-\section{Symantic Analysis}
+This is the first part of any compiler that takes in the program spurce code and does word-substitutions, Macro expansions, generating \textit{Tokens} and cleaning up extra white spaces. All this work is done by using regular expression to increase compactness of input code. The tokens when combined in a special way form what is known as \textbf{Abstract Syantax Trees (AST)}. The regular expressions are interpreted as \textit{Non-Deterministic Finite Automata (NDFA)} since the states or the inner expression in between any two parts of a Regex can't be fixed since it will vary with thw input used. Thus the NDFA is converted to \textit{Deterministic Finite Automata (DFA)} forming AST using the technique of \textit{$\epsilon$-Transformation}. The code is now ready to be parsed.\\
+
+\subsection{Abstract Syntax Trees and Abstract Binding Trees}
+In computer science, an abstract syntax tree (AST), or just syntax tree, is a tree representation of the abstract syntactic structure of source code written in a programming language. It is "Abstract" in the sense that it does not represent every detail appearing in the real syntax of the programming language used, but rather just the structural and content-related details.\\
+
+An abstract syntax tree is an ordered tree whose leaves are variables and whose interior nodes are operators whose arguments are its children. Ast’s are classified into a variety of sorts corresponding to different forms of syntax that divide ASTs into syntactic categories. For example, common programming languages often have a syntactic distinction between commands and an expression. These are two type of sorts for ASTs.\\
+
+\textbf{Abstract Binding Trees (ABT)} enrich the meaning of AST with the methods to introduce new variables and symbols called \textit{bindings} to an existing AST. The additions are performed within a given range of significance of the added terms called its \textit{scope}. In desinging type systems, we therefore deal with these ABT to construct new language.\\ 
+
+\subsection{Parsing}
+
+
+
+\section{Syntax Analysis}
 \section{Optimization}
 \section{Code Generation}
 

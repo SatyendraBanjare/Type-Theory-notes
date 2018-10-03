@@ -1,5 +1,40 @@
 \chapter{Proving}
 
+In this and next chapter I will discuss how type theory is finally implemented on a machine. Similarity of mathematical type structures and a programming language type system is to be understood thus explaining the theoretical correctness of afore mentioned equivalence.
+
+Robert Harper$^1$ in his book \textit{Practical Foundations of Programming Languages} defines the term \textit{Judgement} 'J' defined on a set of rules 'R' defined for a type that satisfies a property 'P' (hence forming an Abstract Binding Tree ABT) and it follows an inductive definition 
+
+\[ \dfrac{J_1 J_2 J_3\cdots J_k}{J}\]
+
+where each J$_i$ is some sort of pre-defined abstract judgements or base cases. The set R is a collection of all such J$_i$s. R is also referred to as an \textit{Axiom} if k=0 i.e it is just first judgement to be made. for example :
+
+\[\dfrac{}{zero\quad nat} \quad \quad and \quad \dfrac{a\quad nat}{succ(a)\quad nat}  \]
+
+He explains \textit{Derivabilty} Judjement J$_1$...J$_k$$\vdash$$_R$ K for a given set of rules 'R', with J$_i$ and K as basic judgements to show that we may derive K from the expansion of R$\cup$\{J$_1$...J$_k$\} of the rules with axioms 
+
+\[ \dfrac{}{J_1} \quad \dfrac{}{J_2} \quad  \dfrac{}{J_3} \quad \cdots \quad \dfrac{}{J_k}   \]
+
+$\Gamma\vdash$$_R$K means that a Judgement K is derivable from rules R$\cup\Gamma$.
+
+He defines \textit{Admissibility} Judgement written as $\Gamma\models_R$J, that if there exists any judgement like$\vdash$$_R$$\Gamma$ then it implies $\vdash$$_R$ J . It means that if all the assumptions (base cases) are derivable from R then J is derivable from R.
+
+The mathemetical formalization of static part and dynamic part of a typed programming language is expressed in the form of the judgements.
+
+The static feature of a language imposes constraints on the formation of the phases that are sensitive to the context in which thay occur. It follows an induction definiton like this
+
+\[\chi | \Gamma\vdash e:\tau\]
+
+where $\chi$ is a finite set of variables and $\Gamma$ is a typing context consisting of hypothesis of the form x:$\tau$, one for each $x\in\chi$. The Dynamics feature basically means the transition of states expressed in form of \textit{Transition} Judgement having a transition $s\longmapsto^n s'$ (for n$^{th}$ order transition) as
+
+\[\dfrac{}{s\longmapsto^n s'} \quad \quad and \quad \dfrac{{s\longmapsto s'} \quad {s'\longmapsto^{*} s"}}{s\longmapsto^{*} s"}  \]
+
+It is important to note that all this operations are performed on assumed abstract mathematical objects, Abstract Binding Tree ABTs. 
+
 \section{Curry-Howard Correspondence}
-\section{De Bruijn criterion}
+\lipsum[1] \lipsum[1]
 \section{LCF - Logic for Computable Functions}
+\lipsum[1] \lipsum[1]
+\section{Hilbert-style deduction systems}
+\lipsum[1] \lipsum[1]
+\section{De Bruijn criterion}
+\lipsum[1] \lipsum[1]

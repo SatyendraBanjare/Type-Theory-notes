@@ -1,21 +1,68 @@
 \chapter{Type Systems}
 
+A \textbf{Type System} for any programming language is a set of rules that associate a property called "\textit{Type}" with the basic grammatical constructs of the language like variables, constants, statements and commands. It is the computer programming equivalent of type theory which uses type safety and type validation to prevent bugs, compiler runtime errors and compiler optimizations. It is very basic for any programming language to have types to actually perform any of \underline{Higher Order Logic} on the host machine. Note that a type system can work only if the program is run. In other words it is absolutely insignificant to check a program if it is not run or atleast compiled to be run.\\
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Dependent Types}
-\section{Flow-Sensitive}
-\subsection{Gradual}
-\section{Latent Type-ing}
-\section{Refinement}
-\section{Substructural}
-\section{Unique}
+This is the most important kind of Types whose definition depends on a value. It is the conceptual overlap between computer's Type System and Type theory as it allows evaluation by induction. In functional Programming languages, dependent types increases expressivity of a defined type. It's examples include dependent functions and dependent pairs. Introduction of new variable or new values may completely change the overall behaviour. Thus the Structual Type checking would be used and not nominal (defined below). It is considered to be of two types from mathematical point of view : \\
+
+\begin{itemize}
+	\item{
+	\subsection{ $\Pi$-Type}
+	It is called \textbf{Dependent Product Type} where given a type space $\Omega$, we define a family of types B:A$\rightarrow$ $\Omega$ that says every term a:A has a type B(a):$\Omega$. It explains that there is not a fixed co-domain for functions of this type. The name 'pi-type' comes from the idea that these may be viewed as a Cartesian product of types. Pi-types can also be understood as models of universal quantifiers. For an example let's say a function gives tuple of order n for a given natural number input n. Clearly the terms in that tuple does not depend on the value of n. Here also, the Dependent product nature is preserved.\\   
+	}
+	\item{
+	\subsection{ $\Sigma$-Type}
+	It is called \textbf{Dependent Sum Type} and is \underline{categorically dual} to dependent product type where given a type space $\Omega$, if we have a family of types B:A$\rightarrow$ $\Omega$ then there must exist a dependent pair type. It explains that there should be fixed codomain for any function. \\ 
+	}
+\end{itemize}
+
+They use mathematical operators ($\rightarrow$) and binders ($\forall$) to produce complex types. The higher order \textbf{Dependently Typed Polymorphic lambda calculus} also called \textbf{Calculus of Inductive Constructions} is the foundational basis of all Proof Assistants.
+
+\section{Flow-Sensitive Types}
+Such Type systems determine the type of a variable by controlflow. The type of a variable may change in any of the program's method. The type inference (defined below) is used for checking these type systems.
+
+\section{Latent Types}
+Latent typing refers to a type system where types are associated with values and not variables.
+
+\section{Refinement Types}
+These are a set of some preconditions that define the behaviour of the function or variable. These can be understood as the return types of most of functions which may dpend on some 'if/else' conditions.
+
+\section{Substructural Types}
+This is the type system defined depending on the use of a variable. For exmaple, a variable may be used once or many times. It has \textbf{Linear}, \textbf{Affine}, \textbf{Relevant} and \textbf{Ordered} as subcategories. The Linear system allows the use of object exactly once, Affine system allows use atmost once, Relevant system allows usage any number of times and Order system allows using objects only once in an order.
+
+\section{Unique Types}
+A Unique type guarantees that an object is used in a single-threaded way only with maximum one reference to it. It mantains the referntial transparency and improves the efficieny of functional languages.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Type Safety \& Memory Safety }
-\section{Static vs Dynamic}
-\section{Nominal vs Structural}
-\section{Duck Type-ing}
+Type safety refers to type equivalence and behavioural equivalence of all language constructs for a given program written in any programming language. Memory safety on the other hand refers to leakage and corruption of memory by any program. example : stack overflow.\\
 
-\section{Weakly vs Strongly Typed}
+%% Major Categories in Type Systems %%
+Some Type checking techniques to ensure type safety are :
 
+\begin{itemize} 
+\item {\section*{Static vs Dynamic}
+
+A \textbf{Static} type system refers to compilation time type checking. The source code's type correctness is verified first and then the executable is generated. A \textbf{Dynamic} type system checks type correctness during the runtime. This is the case when bindings and linking are created so that data passed on from one of the program to other is correct type-wise. Together both create polymorphic type checking where a single interface or a single Type check-pass is capable of doing both kind of type checks and is very portable to use. \\}
+
+\item {
+\section*{Nominal vs Structural}
+In a \textbf{Nominal} or \textbf{Nominative} type system, the equivalence of data types is determined by explicit declarations or name of types. For example, in C programming language, two "\textit{struct} types with different names in the same translation unit are never considered compatible, even if they have identical field declarations. In \textbf{Structural} type system, the inner structure of a data type are evaluated  to show data equivalence and type safety. }
+
+\item{
+\section*{Manifest vs Inferred}
+\textbf{Manifest} Typing is explicit identification by the software programmer of the type of each variable being declared. For example: if variable X is going to store integers then its type must be declared as integer. Type \textbf{Inference} refers to the automatic detection of the data type of an expression in a programming language. For example, user may write a float point decimal without having declared that variable as a float point. The compiler technology should be able to detect what program is trying to do and perform further actions accordingly. This is also referred to as \textbf{Typeless Typeing} where the type is later introduced depending on data passed.\\ }
+
+\item{
+\section*{Duck Type-ing}
+This type system got it's name from on of the most common computer engineering practices which says if something behaves like a duck, quacks like aduck then it must be duck. In other words the behaviour determines the data type. For example, adding a float type integer to a double type integer, the answer should have a double type because it is surely to have characteristics of a double type integer.\\}
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Unified Type System}
+In the object oriented programming (OOP) context, the abstraction and scope of methods deals with it's derivation from a base class. similar logic can be extended to class objects whose properties and methods depends on a base class. A \textbf{Unified Type System} states that all the Types of objects are derived from a single root type. Thus that object is capable of performing operations approved by the root type. Example of such a programming language is C\# developed by Microsoft.  In C\# the concepts of encapsulation and methods have been decoupled from the reference requirement so that a type can support methods and encapsulation without being a \textbf{Reference type}. A reference type is also an OOP concept that says all instances of class objects are by reference. \\
 
-\section{Applicative equivalence}

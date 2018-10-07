@@ -1,3 +1,21 @@
 \chapter{Proof Assistants }
-\lipsum[1]
-\lipsum[0]
+Having discussed some basic ideas of working of a Proof Assistant and theoretical soundness of proving things, let's now get to the programming and implementation. Proof Assistants as stated earlier is a software tool do help in developing formal proofs. As soon as the formal logic system was developed, a very basic theorem prover called  \textit{Logic for Computable Functions} (LCF) was developed along with a basic theoretical programming language \textit{Programming Computable Functions} (PCF) was developed. These were some of the initial works in the field of Proof Assistants. The successors include \textit{Isabelle} and \textit{COQ}. Also the theory advanced to reason for working at higher order of complexity called \textit{Higher Order Logics} (HOL).  
+
+
+\section{LCF - Logic for Computable Functions}
+This was the first interactive Automated theorem prover that also introduced a new \textit{Domanin Specific Language} (DSL) called ML. It allowed users to generate new tactics (disscussed below) to improve proving. The type system of ML ensures that theorems are derived completely by the given inference rules. \\
+
+LCF shaped the thought process of how to write a type of a function to finally verify it by using terms like \textit{Inclusive} rules, \textit{Conditional} rules, \textit{$\lambda$} rules, \textit{Truth} rules. It also introduced the idea of tactic logics and put forward a \textit{Read Evaluate Print Loop} (REPL) type approach of proof assistant. It worked by breaking a given hypotheses into smaller forms. The smaller forms often are Lemmas on which the proof depends.\\
+
+The  LCF-style  inference  kernel used in many proof assistants consists  of two layers: proof objects and theorems. Proof objects are represented as concrete datatypes. Depending on system parameters, a varying amount of information is maintained here. In any case, there is a complete record of oracles used in the proof. An explicit $\lambda$-term representation of the proof is also possible, but requires significantly more resources. Theorems are elements of an abstract datatype thm.\\
+
+According to the original LCF tradition, theorems are proven propositions that have been certified by the kernel module, which implements primitive inferences as abstract datatype constructors. Any operation on theorems has to go through that kernel, so any value of type thm is “\textit{correct by construction}”.
+
+\section{Tactics}
+The forward reasoning of proving a hypothesis consisting of first proving sub-hypotheses say A and B and finally concluding that if A is proved and B is proved we have proved A\^B (our main hypothesis). The backward reasoing says to prove A\^B , we need to prove A and B. \textbf{Tactics} basically run inference rules forward or backwards to help break down proving things. It may also apply a predefined lemma ($\simeq$ function application), split up a lemma about some inductive type (in that particular step of proving) into a case for each constructor, and so on. \\
+
+Basic tactics may succeed or fail depending upon the context in which they are applied. More advanced tactics are like little functional programs that run the basic tactics, perform pattern matching over the terms in the goal and/or assumptions, make choices based on the success or failure of tactics, and so forth. More advanced tactics deal with arithmetic and other specific kinds of theories. The key paper on Coq's tactic language is the following:
+
+\section{De Bruijn criterion}
+One may ask how to veify the verifying system being used. \textbf{De Bruijn criterion} answers this by ensuring that proof assistants create an ‘independently checkable proof object’ while the user is interactively proving a theorem. These proof objects should be checkable by a program that a skeptic user could easily write him/herself. De Bruijn’s Automath systems were the first to specifically focus on this aspect and therefore this property wascoined ‘De Bruijn criterion’ by Barendregt (Barendregt \& Geuvers 2001). In De Bruijn’s systems, the proof objects are basically encodings of natural deduction derivations that can be checked by a type checking algorithm.\\
+

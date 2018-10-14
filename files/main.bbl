@@ -1,0 +1,50 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global}
+    \entry{einstein}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+           family={Einstein},
+           family_i={E\bibinitperiod},
+           given={Albert},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annalen der Physik}
+      \field{number}{10}
+      \field{title}{{Zur Elektrodynamik bewegter K\"{o}rper}. ({German}) [{On} the electrodynamics of moving bodies]}
+      \field{volume}{322}
+      \field{year}{1905}
+      \field{pages}{891\bibrangedash 921}
+      \range{pages}{31}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1002/andp.19053221004
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

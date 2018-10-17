@@ -1,8 +1,17 @@
-\chapter{Interplay between Quantum Computing and Type Theory }
+\chapter{Quantum Computing and Type Theory }
+Programming languages are often recognized as Procedural and Descriptive corresponding to performing a given n-step logic in a program. Quantum Programs are verified throughly using Formal methods. A qubits working semantics are completely writtten as mathematical abstractions and then verified with some given initial conditions. Doing QC\footnote{Quantum computing} things this way is helpful as we are still not capable enough to have a practical quantum computer to try out things on. As in case of \textbf{Stack Verification} of classical computing systems, complete verification for quantum computers is also done. Some of the most recent works include \textit{Steve Zdancewic's} paper that discusses the \textbf{QWire} as a core language for Quantum circuits, an analogue to VHDL and HDL in classical computing. He has verified its correctness too in CoQ. He describes Phantom Types as the type system he used for Qwire.\\
 
-\section{Procedural Implementations}
-\section{Descriptive Implementations}
+\textbf{EpiQC} is a multi-institutional paradigm foucsed on reducing the current gap between existing theoretical algorithms and practical quantum computing architectures. They have a very nice video series that nicely explains the application of program verification in Quantum computing. They refer to Technology-Aware Programming Environment as an upgrade to traditional optimization and abstraction techniques to one that is more practical to use. Major focus is upon developing better tools for robustness and scalability.
 
+
+\begin{itemize}
+\item{
+	\textbf{Procedural Implementations} include verifying step-by-step correctness of program semantics. \textbf{QCL} as described earlier is a programming language that has Procedural behaviour inherited from classical languages. It is now being verifed .   
+}
+\item{
+	\textbf{Descriptive Implementations} involves verifying the program logic only. For example, a sum function should return summation of input parameters correctly. The procedural verification aspect of same would mean to check the register allocation logic and 
+}
+\end{itemize}
 
 \section{Phantom Types}
-\section{Conclusion}
+

@@ -19,17 +19,21 @@ The basic understanding of how the verification work can be thought as, say ther
 
 How do we check this ?\\
 
-Well the method used is called \textbf{Step-Indexing}. In this method we look for holes in a program. These holes represented by C$_i$ can be thought as a program's loop structure or the way conditional arguments have been put up. In any step of a program thus if we are able to show that at that point, C$_2$[e$_1$] termminates and C$_1$[e$_2$] termminates also producing same results then we have shown the programs are equal. The cardinality issues related to number of such possible holes in programs increases the complexity of verification proof. This method therefore says that we should unfold the program upto required N steps and consider the equivalence then.\\
+Well the method used is called \textbf{Step-Indexing}\cite{step_indexing}. In this method we look for holes in a program. These holes represented by C$_i$ can be thought as a program's loop structure or the way conditional arguments have been put up. In any step of a program thus if we are able to show that at that point, C$_2$[e$_1$] termminates and C$_1$[e$_2$] termminates also producing same results then we have shown the programs are equal. The cardinality issues related to number of such possible holes in programs increases the complexity of verification proof. This method therefore says that we should unfold the program upto required N steps and consider the equivalence then.\\
 
 The areas where this method stucks is where we are unable to predict N. This is the case of IO type functions. The work on this is going on and improved proofs are being generated.\\
 
 
 \section{Verified Software Toolchain}
-This project led by Princeton University deals with verifying software programs and compilers. It is an advancement to Compcert. It uses multi layered kernels to securely verify the programs.  
+This project \cite{VST} led by Princeton University deals with verifying software programs and compilers. It is an advancement to Compcert. It uses multi layered kernels to securely verify the programs.  
 
 \begin{figure}[!htb]
 \centering
   \includegraphics[width=\textwidth]{diagram}
-  \caption{Flow diagram of CompCert C}
+  \caption{Flow diagram of CompCert C ( Source: Official Site)}
 \end{figure}
+
+The software toolchain includes static analyzers to check assertions about programs; optimizing compilers to translate programs to machine language operating systems and libraries to supply context for programs. Verified Software Toolchain verifies with machine-checked proofs that the assertions claimed at the top of the toolchain really hold in the machine-language program, running in the operating-system context, on a weakly-consistent-shared-memory ma-
+chine.
+
 

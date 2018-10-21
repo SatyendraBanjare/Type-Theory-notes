@@ -19,32 +19,879 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global}
-    \entry{einstein}{article}{}
+    \entry{dragonbook}{book}{}
       \name{author}{1}{}{%
-        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
-           family={Einstein},
-           family_i={E\bibinitperiod},
-           given={Albert},
+        {{hash=ba64edb8f05b0f5b8d9368984c3c3f74}{%
+           family={Aho},
+           family_i={A\bibinitperiod},
+           given={Alfred\bibnamedelima V.},
+           given_i={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Addison-Wesley}%
+      }
+      \strng{namehash}{ba64edb8f05b0f5b8d9368984c3c3f74}
+      \strng{fullhash}{ba64edb8f05b0f5b8d9368984c3c3f74}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Compilers Principles, Techniques, and Tools}
+      \field{year}{1993}
+    \endentry
+    \entry{isabelle}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=40cc99892951ceaec138de893e873f6a}{%
+           prefix={of},
+           prefix_i={o\bibinitperiod},
+           family={Cambridge},
+           family_i={C\bibinitperiod},
+           given={University},
+           given_i={U\bibinitperiod}}}%
+        {{hash=9b451c75c4337818c913a1364bcca974}{%
+           family={TUM},
+           family_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{767269b451661dd47f593b07790e5a48}
+      \strng{fullhash}{767269b451661dd47f593b07790e5a48}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Isabelle - Proof Assitant}
+      \verb{url}
+      \verb http://isabelle.in.tum.de/index.html
+      \endverb
+    \endentry
+    \entry{cpdt}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5049db5a826d93c36901bc4d6130fe37}{%
+           family={Chlipala},
+           family_i={C\bibinitperiod},
+           given={Adam},
            given_i={A\bibinitperiod}}}%
       }
-      \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
-      \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{5049db5a826d93c36901bc4d6130fe37}
+      \strng{fullhash}{5049db5a826d93c36901bc4d6130fe37}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Certified Programming with Dependent Types}
+      \field{year}{1993}
+    \endentry
+    \entry{quantumstack}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=99ed6c2e3763fadbd32af4eed5fcbd01}{%
+           family={Chong},
+           family_i={C\bibinitperiod}}}%
+        {{hash=58d72e8e4929313bdba8dc247ef3aa5f}{%
+           family={Franklin},
+           family_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8538a0c1a8350f9e6d191c85cc9b44b}
+      \strng{fullhash}{d8538a0c1a8350f9e6d191c85cc9b44b}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Programming languages and compiler design for realistic quantum hardware}
+      \field{year}{2017}
+    \endentry
+    \entry{risc_cisc}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=017ee4eb358f1a5d6195cb970f5cf1fa}{%
+           family={course},
+           family_i={c\bibinitperiod},
+           given={Harvard\bibnamedelima CS},
+           given_i={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{017ee4eb358f1a5d6195cb970f5cf1fa}
+      \strng{fullhash}{017ee4eb358f1a5d6195cb970f5cf1fa}
+      \field{sortinit}{c}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{RISC vs CISC}
+      \verb{url}
+      \verb https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/risccisc/
+      \endverb
+    \endentry
+    \entry{qasm}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=ae17079f44e231a5c0a04770445c9624}{%
+           family={Cross},
+           family_i={C\bibinitperiod},
+           given={Andrew\bibnamedelima W.},
+           given_i={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=40f58ac1cc8e5d424cced3580b0c9ea7}{%
+           family={Bishop},
+           family_i={B\bibinitperiod},
+           given={Lev\bibnamedelima S.},
+           given_i={L\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f0877fdab6c06d4a73797be9107c9440}
+      \strng{fullhash}{f0877fdab6c06d4a73797be9107c9440}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{QASM ISA}
+      \verb{url}
+      \verb https://arxiv.org/abs/1707.03429
+      \endverb
+    \endentry
+    \entry{llvm}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labeltitlesource}{title}
+      \field{title}{Deepspec NSF expedition}
+      \verb{url}
+      \verb https://llvm.org/
+      \endverb
+    \endentry
+    \entry{deepspec}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labeltitlesource}{title}
+      \field{title}{Deepspec NSF expedition}
+      \verb{url}
+      \verb https://deepspec.org
+      \endverb
+    \endentry
+    \entry{epiqc}{misc}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labeltitlesource}{title}
+      \field{title}{EPIQC}
+      \verb{url}
+      \verb http://epiqc.cs.uchicago.edu/
+      \endverb
+    \endentry
+    \entry{epiqc_video}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9fbd0829bd1530673b3ab4e3259c0214}{%
+           family={EPIQC},
+           family_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{9fbd0829bd1530673b3ab4e3259c0214}
+      \strng{fullhash}{9fbd0829bd1530673b3ab4e3259c0214}
       \field{sortinit}{E}
       \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Annalen der Physik}
-      \field{number}{10}
-      \field{title}{{Zur Elektrodynamik bewegter K\"{o}rper}. ({German}) [{On} the electrodynamics of moving bodies]}
-      \field{volume}{322}
-      \field{year}{1905}
-      \field{pages}{891\bibrangedash 921}
-      \range{pages}{31}
+      \field{title}{EPIQC video talks}
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=ZQ_NE-E91aU&list=PLfOgkuiMs5qD6BkS7Bk2gLGdHSxjMz5MY
+      \endverb
+    \endentry
+    \entry{provingground}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=28bd67bd697f56419dea89bdb49d225a}{%
+           family={Gadgil},
+           family_i={G\bibinitperiod},
+           given={Siddhartha},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{28bd67bd697f56419dea89bdb49d225a}
+      \strng{fullhash}{28bd67bd697f56419dea89bdb49d225a}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Proving Ground}
+      \verb{url}
+      \verb https://github.com/siddhartha-gadgil/ProvingGround
+      \endverb
+    \endentry
+    \entry{Geuvers2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8fd7d8a39035cc742b94ee8b58321975}{%
+           family={Geuvers},
+           family_i={G\bibinitperiod},
+           given={H.},
+           given_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fd7d8a39035cc742b94ee8b58321975}
+      \strng{fullhash}{8fd7d8a39035cc742b94ee8b58321975}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0973-7677}
+      \field{journaltitle}{Sadhana}
+      \field{month}{02}
+      \field{number}{1}
+      \field{title}{Proof assistants: History, ideas and future}
+      \field{volume}{34}
+      \field{year}{2009}
+      \field{pages}{3\bibrangedash 25}
+      \range{pages}{23}
       \verb{doi}
-      \verb http://dx.doi.org/10.1002/andp.19053221004
+      \verb 10.1007/s12046-009-0001-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s12046-009-0001-5
+      \endverb
+    \endentry
+    \entry{step_indexing}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ee6a747f171e4de9a6042a0de0be4275}{%
+           family={Gratzer},
+           family_i={G\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee6a747f171e4de9a6042a0de0be4275}
+      \strng{fullhash}{ee6a747f171e4de9a6042a0de0be4275}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Step Indexing (Video talk)}
+      \verb{url}
+      \verb https://mediaservices.cmu.edu/media/SCS+Honors+Thesis+-+Daniel+Gratzer/1_x2s5grip
+      \endverb
+    \endentry
+    \entry{pfpl}{book}{}
+      \name{author}{1}{}{%
+        {{hash=73259fe928ce8add0f265e234f8de3a6}{%
+           family={Harper},
+           family_i={H\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {The Edinburgh Building, Cambridge CB2 2RU, UK}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{73259fe928ce8add0f265e234f8de3a6}
+      \strng{fullhash}{73259fe928ce8add0f265e234f8de3a6}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Practical Foundations for Programming Languages (Second Edition)}
+      \field{year}{2016}
+    \endentry
+    \entry{qiskit}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={IBM},
+           family_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{QisKit}
+      \verb{url}
+      \verb https://github.com/Qiskit
+      \endverb
+    \endentry
+    \entry{coq}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=33543b3b48546110d4354673c91ef8d1}{%
+           family={INRIA},
+           family_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{33543b3b48546110d4354673c91ef8d1}
+      \strng{fullhash}{33543b3b48546110d4354673c91ef8d1}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Coq - Proof assistant}
+      \verb{url}
+      \verb https://coq.inria.fr
+      \endverb
+    \endentry
+    \entry{abstractmaths}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8060af8d9809e7e99191bbfb01f01d45}{%
+           family={Judson},
+           family_i={J\bibinitperiod},
+           given={Thomas\bibnamedelima W.},
+           given_i={T\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{8060af8d9809e7e99191bbfb01f01d45}
+      \strng{fullhash}{8060af8d9809e7e99191bbfb01f01d45}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Abstract Algebra Theory and Applications}
+      \field{year}{2015}
+    \endentry
+    \entry{QMASM}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=8b6bbd866a5b30cf6b824cba9e571fd4}{%
+           family={Laboratory},
+           family_i={L\bibinitperiod},
+           given={Los\bibnamedelimb Alamos\bibnamedelima National},
+           given_i={L\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=d970dbbd0e7ab15400e1e70869f975a6}{%
+           family={D-Wave},
+           family_i={D\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{14f57d10068b356b8f2c136f3de810ce}
+      \strng{fullhash}{14f57d10068b356b8f2c136f3de810ce}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{QMASM}
+      \verb{url}
+      \verb https://github.com/lanl/qmasm
+      \endverb
+    \endentry
+    \entry{certigrad_video}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=8b6bbd866a5b30cf6b824cba9e571fd4}{%
+           family={Laboratory},
+           family_i={L\bibinitperiod},
+           given={Los\bibnamedelimb Alamos\bibnamedelima National},
+           given_i={L\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=d970dbbd0e7ab15400e1e70869f975a6}{%
+           family={D-Wave},
+           family_i={D\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{14f57d10068b356b8f2c136f3de810ce}
+      \strng{fullhash}{14f57d10068b356b8f2c136f3de810ce}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{QMASM}
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=-A1tVNTHUFw
+      \endverb
+    \endentry
+    \entry{QCQI}{book}{}
+      \name{author}{2}{}{%
+        {{hash=790b57a148d0102f1420b73dd7d8cb95}{%
+           family={Nielsen},
+           family_i={N\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=36b0efc2456ce64558c3e84e97461a10}{%
+           family={Chuang},
+           family_i={C\bibinitperiod},
+           given={Isaac\bibnamedelima L.},
+           given_i={I\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {The Edinburgh Building, Cambridge CB2 2RU, UK}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{f00d3adcb5103f5ad0e0df199bb9a86d}
+      \strng{fullhash}{f00d3adcb5103f5ad0e0df199bb9a86d}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantum Computation and Quantum Information}
+      \field{year}{2000}
+    \endentry
+    \entry{Softwarefoundations}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a144c9315f35fe4e5a00ad9695ae9183}{%
+           prefix={of},
+           prefix_i={o\bibinitperiod},
+           family={Pennsylvania},
+           family_i={P\bibinitperiod},
+           given={University},
+           given_i={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{a144c9315f35fe4e5a00ad9695ae9183}
+      \strng{fullhash}{a144c9315f35fe4e5a00ad9695ae9183}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Software Foundations}
+      \verb{url}
+      \verb https://softwarefoundations.cis.upenn.edu/
+      \endverb
+    \endentry
+    \entry{qcl}{misc}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{15867262911a166ca2270ec58a0e3fe9}
+      \field{labeltitlesource}{title}
+      \field{title}{QCL TU Wein}
+      \verb{url}
+      \verb http://tph.tuwien.ac.at/~oemer/qcl.html
+      \endverb
+    \endentry
+    \entry{qwire}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4c2ee32c1076561e7e9a8c205365d017}{%
+           family={Rand},
+           family_i={R\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+        {{hash=52a6636b49d86da34cd228bcf59f574d}{%
+           family={Paykin},
+           family_i={P\bibinitperiod},
+           given={Jennifer},
+           given_i={J\bibinitperiod}}}%
+        {{hash=86f46b6c1c6a571f63e61bfc35519f72}{%
+           family={Zdancewic},
+           family_i={Z\bibinitperiod},
+           given={Steve},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ffeecd8698c836e5618023a2d3fc3ce7}
+      \strng{fullhash}{ffeecd8698c836e5618023a2d3fc3ce7}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 14th International Conference on Quantum Physics and Logic, {QPL} 2017, Nijmegen, The Netherlands, 3-7 July 2017.}
+      \field{title}{{QWIRE} Practice: Formal Verification of Quantum Circuits in Coq}
+      \field{year}{2017}
+      \field{pages}{119\bibrangedash 132}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.4204/EPTCS.266.8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.4204/EPTCS.266.8
+      \endverb
+    \endentry
+    \entry{liqui}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2766b3f2d6ad1844b368d1a847d0d24e}{%
+           family={Research},
+           family_i={R\bibinitperiod},
+           given={Microsoft},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2766b3f2d6ad1844b368d1a847d0d24e}
+      \strng{fullhash}{2766b3f2d6ad1844b368d1a847d0d24e}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LIQUI}
+      \verb{url}
+      \verb https://www.microsoft.com/en-us/research/project/language-integrated-quantum-operations-liqui/
+      \endverb
+    \endentry
+    \entry{forest}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5167ee4e9af39c5fe2b4514f515343ae}{%
+           family={Rigetti},
+           family_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5167ee4e9af39c5fe2b4514f515343ae}
+      \strng{fullhash}{5167ee4e9af39c5fe2b4514f515343ae}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Forest}
+      \verb{url}
+      \verb https://www.rigetti.com/forest
+      \endverb
+    \endentry
+    \entry{certigrad}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d4aa1f86e8ee7124b731fd216d1f4d09}{%
+           family={Selsam},
+           family_i={S\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+        {{hash=86c032bbc45c3b616f0a1170befc0e82}{%
+           family={Liang},
+           family_i={L\bibinitperiod},
+           given={Percy},
+           given_i={P\bibinitperiod}}}%
+        {{hash=dff275db3eeda9070421946618c91a9b}{%
+           family={Dill},
+           family_i={D\bibinitperiod},
+           given={David\bibnamedelima L.},
+           given_i={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{644f276791a19d4361aaec6ba6157d1b}
+      \strng{fullhash}{644f276791a19d4361aaec6ba6157d1b}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Developing Bug-Free Machine Learning Systems With Formal Mathematics}
+      \field{volume}{abs/1706.08605}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1706.08605
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1706.08605
+      \endverb
+    \endentry
+    \entry{russel}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=589e8cd6d7dafa6d48d38a49e77b21bb}{%
+           family={Stanford.edu},
+           family_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{589e8cd6d7dafa6d48d38a49e77b21bb}
+      \strng{fullhash}{589e8cd6d7dafa6d48d38a49e77b21bb}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Russel's Paradox}
+      \verb{url}
+      \verb https://plato.stanford.edu/entries/russell-paradox/
+      \endverb
+    \endentry
+    \entry{phantom_types}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ffe084909576b15a968d6ad49d540117}{%
+           family={Steve\bibnamedelima Zdancewic},
+           family_i={S\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           suffix={Robert\bibnamedelima Rand},
+           suffix_i={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Jennifer\bibnamedelima Paykin},
+           given_i={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ffe084909576b15a968d6ad49d540117}
+      \strng{fullhash}{ffe084909576b15a968d6ad49d540117}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Phantom Types for Quantum Programs}
+      \verb{url}
+      \verb https://popl18.sigplan.org/event/coqpl-2018-phantom-types-for-quantum-programs
+      \endverb
+    \endentry
+    \entry{VST}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f2f17cb1c154e273d433b0d153c6e13e}{%
+           family={University},
+           family_i={U\bibinitperiod},
+           given={Princeton},
+           given_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2f17cb1c154e273d433b0d153c6e13e}
+      \strng{fullhash}{f2f17cb1c154e273d433b0d153c6e13e}
+      \field{sortinit}{U}
+      \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Verified Software Toolchain (VST)}
+      \verb{url}
+      \verb http://vst.cs.princeton.edu/
+      \endverb
+    \endentry
+    \entry{church_turing_hyp}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Church-Turing Hypothesis}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis
+      \endverb
+    \endentry
+    \entry{curry_howard}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Curry Howard Correspondence}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence
+      \endverb
+    \endentry
+    \entry{dependent_types}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dependent Types}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Dependent_type
+      \endverb
+    \endentry
+    \entry{harvardarch}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Harvard Computer Architecture}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Harvard_architecture
+      \endverb
+    \endentry
+    \entry{hilbert_system}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hilbert-Style Deduction System}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Hilbert_system
+      \endverb
+    \endentry
+    \entry{hoare_logic}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hoare Logic}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Hoare_logic
+      \endverb
+    \endentry
+    \entry{lambda_calculus}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lambda Calculus}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Lambda_calculus
+      \endverb
+    \endentry
+    \entry{lcf}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Logic For Computable Functions}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Logic_for_Computable_Functions
+      \endverb
+    \endentry
+    \entry{per_martin_tt}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Martin-Lof Type Theory}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Intuitionistic_type_theory
+      \endverb
+    \endentry
+    \entry{pcf}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Programming Computable Functions}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Programming_Computable_Functions
+      \endverb
+    \endentry
+    \entry{quill}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quill ISA}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Quil_(instruction_set_architecture)
+      \endverb
+    \endentry
+    \entry{separation_logic}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Separation logic}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Separation_logic
+      \endverb
+    \endentry
+    \entry{typed_lambda}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Typed Lambda Calculus}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Typed_lambda_calculus
+      \endverb
+    \endentry
+    \entry{typesystems}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Typesystems of computer lanuages}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Type_system
+      \endverb
+    \endentry
+    \entry{vonneumanarch}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Von Computer Architecture}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Von_Neumann_architecture
+      \endverb
+    \endentry
+    \entry{newkindofscience}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a11bd3178c2455f735d9b13a71c5d144}{%
+           family={Wolfram},
+           family_i={W\bibinitperiod},
+           given={Stephan},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a11bd3178c2455f735d9b13a71c5d144}
+      \strng{fullhash}{a11bd3178c2455f735d9b13a71c5d144}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{New Kind of Science}
+      \verb{url}
+      \verb https://www.wolframscience.com/
+      \endverb
+    \endentry
+    \entry{project_q}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=50af88b96355204df2dc041b1ec5c184}{%
+           family={Zurich},
+           family_i={Z\bibinitperiod},
+           given={ETH},
+           given_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{50af88b96355204df2dc041b1ec5c184}
+      \strng{fullhash}{50af88b96355204df2dc041b1ec5c184}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Project Q}
+      \verb{url}
+      \verb https://projectq.ch/
       \endverb
     \endentry
   \endsortlist
+  \missing{COQ}
 \endrefsection
 \endinput
 

@@ -1,10 +1,10 @@
-\chapter{Quantum Computing Overview}
+\chapter{Quantum Computing Overview }
 \graphicspath{ {./images/} }
 
 \[ \boxed {\mbox{i\textbf{h}}\dfrac{\partial}{\partial t}|\psi(t)\rangle = \bm{\hat{\textnormal{\bfseries H}}} |\psi(t)\rangle }
 \]
 
-Quantum Computing is doing computation using quantum-mechanical phenomena like superposition and entanglement. A Quantum computer performs such computing and is very different from a classical computer that depends on digital logics and transistors. Quantum computation uses Quantum bits also called \textit{Qubits} which align in different ways to produce variations of not just 1 or 0 (as in classical computing) but many others. An approximation based on probability of outcome which depends on solving governing physics equations, theoretically allows us to construct subsequent logic of state or data changes.\\
+Quantum Computing \cite{QCQI} is doing computation using quantum-mechanical phenomena like superposition and entanglement. A Quantum computer performs such computing and is very different from a classical computer that depends on digital logics and transistors. Quantum computation uses Quantum bits also called \textit{Qubits} which align in different ways to produce variations of not just 1 or 0 (as in classical computing) but many others. An approximation based on probability of outcome which depends on solving governing physics equations, theoretically allows us to construct subsequent logic of state or data changes.\\
 
 A Quantum Turing Machine is theoretical accepted model of quantum computer which has been made possible by the initial works of \textbf{Richard Feynman}, \textbf{David Deutsch}  and \textbf{Yuri Manin}. The actual implemtation model of the quantum computer however is still in a very basic phase because of very absurd Temperature-Pressure conditions required to maintain a very less stable qubit state. The current research in quantum computing hardware focuses on precisely maintaining qubit's state and reducing data loss during state transition. The implementational software aspect of quantum computer is explored even smaller much because of less compatible quantum hardware and the inability of classical computers to simulate large qubit quantum computer.\\
 
@@ -35,7 +35,7 @@ The other type of representation is called \textbf{Bloch Sphere Representation} 
 \begin{figure}[!htb]
 \centering
   \includegraphics[scale=0.5]{bloch}
-  \caption{Bloch Sphere Representation of a Qubit,}
+  \caption{Bloch Sphere Representation of a Qubit (source : The Quantum Computing \& Quantum Information book)}
 \end{figure}
 
 \[\alpha =  e^{i\psi}cos\dfrac{\theta}{2} \quad \& \quad \beta = e^{i(\psi + \phi)}sin\dfrac{\theta}{2} \].
@@ -53,15 +53,15 @@ A quantum gate or quantum logic gate is a rudimentary quantum circuit operating 
 \begin{figure}[!htb]
 \centering
   \includegraphics[scale=0.4]{qgates}
-  \caption{Some common Quantum Logic gates}
+  \caption{Some common Quantum Logic gates (source: wikipedia)}
 \end{figure}
 
-A \textbf{Quantum Circuit} is an ordered logical combination of quantum gates and some initial Qubits. The quantum circuits are reversible transformations on a quantum mechanical analog of an n-bit register. It is very important for any logic circuit to be reversible to return n bit data output for a n bit data input. In other words the reversible logic gates are bijective mappings from a n bit data set to itself. \textbf{Kitaev} \footnote{alphabeta} mentioned that irreversible circuits increase the physical entropy of the system. Theoretical advancements showed that \textbf{Toffoli Gate} is a Universal reversible Gate. this basically mean that we can easily consruct a large sizes circuit by simply adding more gates (Toffoli gates as example here) to it.
+A \textbf{Quantum Circuit} is an ordered logical combination of quantum gates and some initial Qubits. The quantum circuits are reversible transformations on a quantum mechanical analog of an n-bit register. It is very important for any logic circuit to be reversible to return n bit data output for a n bit data input. In other words the reversible logic gates are bijective mappings from a n bit data set to itself. \textbf{Kitaev} mentioned that irreversible circuits increase the physical entropy of the system. Theoretical advancements showed that \textbf{Toffoli Gate} is a Universal reversible Gate. this basically mean that we can easily consruct a large sizes circuit by simply adding more gates (Toffoli gates as example here) to it.
 
 \begin{figure}[!htb]
 \centering
   \includegraphics{qcircuit}
-  \caption{An example of a quantum circuit}
+  \caption{An example of a quantum circuit (source : The Quantum Computing \& Quantum Information book) }
 \end{figure}
 
 \subsection{Error Correction}

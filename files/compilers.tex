@@ -2,7 +2,7 @@
 \graphicspath{ {./images/} }
 
 
-\textbf{Compilers} are that piece of software that \textit{translates} the programs in one language to other languages. They are different from \textbf{Assembler}. An assembler converts the assebly codes to final machines' instruction codes according to the ISA of the target computer hardware. Compilers are generally thought to convert higher level programs to low level programs. They are of different types like Cross compilers, Bootstrap Compilers (it comes under cross compilers)
+\textbf{Compilers}\cite{dragonbook} are that piece of software that \textit{translates} the programs in one language to other languages. They are different from \textbf{Assembler}. An assembler converts the assebly codes to final machines' instruction codes according to the ISA of the target computer hardware. Compilers are generally thought to convert higher level programs to low level programs. They are of different types like Cross compilers, Bootstrap Compilers (it comes under cross compilers)
 , Transilers and De-compilers. The basic operations carried by most of the compilers are :\\
 
 \section{Lexical Analysis}
@@ -32,7 +32,7 @@ This is one of the most important part where data consistency is checked of inpu
 \begin{figure}[!htb]
 \centering
   \includegraphics[scale=0.5]{type_check}
-  \caption{Design Space of Types}
+  \caption{Design Space of Types (source : Dragon book of compiler Technology)}
 \end{figure}
 
 It shows a diagram of the design space of static vs. dynamic and weak vs. strong typing, placing some well-known programming languages in this design space.
@@ -49,5 +49,5 @@ This part converts the optimized AST into machine codes of a hardware compatible
 \section{Interpreter}
 Interpreters are different from the compilers only in the aspect it performs operations as the code is produced without having a previously compiled code and then executing it. It works similar to a compiler in terms of basic steps but uses an \textbf{Interediate Representation (IR)} of AST before producing machine code and executing it too.\\
 
-\textbf{Low Level Virtual Machine (LLVM)} is a popular compiler technology that takes into account the benefits of IR in compilation. It is used all over now and has increased portability of softwares a lot. Recently the \textit{Polyhedral Loop Optimizations (Polly)} in the LLVM IR has gained popularity and they have been used in all possible places.\\
+\textbf{Low Level Virtual Machine (LLVM)}\cite{llvm} is a popular compiler technology that takes into account the benefits of IR in compilation. It is used all over now and has increased portability of softwares a lot. Recently the \textit{Polyhedral Loop Optimizations (Polly)} in the LLVM IR has gained popularity and they have been used in all possible places.\\
 

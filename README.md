@@ -1,6 +1,6 @@
-# Verified Computer Programs and Type Theory - A short report
+# Logic Systems, Type Theory & Applications of Program Verification
 
-This is a report on advancements in type theory and formalized proof-based programming languages often referred to as verified programming languages. I have tried to explain the importance of mathematical modelling and logic system development based on the ancient works of mathematicians like Per-Martin Lof$^{1}$  by the applications in present programming toolchain and possible future aspects like applications in a quantum  programming toolchain.
+These are some of my notes on stuffs that I have been reading these days like type theory and proof assistants with a small part covering Quantum computing and applications of program verification in quantum computing. It is compiled as a report that focuses on advancements in logic systems and formalized proof-based programming languages often referred to as verified programming languages.
 
 I have also added some of the used references in here. 
 

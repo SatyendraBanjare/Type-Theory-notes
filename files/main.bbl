@@ -144,15 +144,6 @@
       \verb https://arxiv.org/abs/1707.03429
       \endverb
     \endentry
-    \entry{llvm}{misc}{}
-      \field{sortinit}{D}
-      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
-      \field{labeltitlesource}{title}
-      \field{title}{Deepspec NSF expedition}
-      \verb{url}
-      \verb https://llvm.org/
-      \endverb
-    \endentry
     \entry{deepspec}{misc}{}
       \field{sortinit}{D}
       \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
@@ -352,26 +343,13 @@
       \verb https://github.com/lanl/qmasm
       \endverb
     \endentry
-    \entry{certigrad_video}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=8b6bbd866a5b30cf6b824cba9e571fd4}{%
-           family={Laboratory},
-           family_i={L\bibinitperiod},
-           given={Los\bibnamedelimb Alamos\bibnamedelima National},
-           given_i={L\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=d970dbbd0e7ab15400e1e70869f975a6}{%
-           family={D-Wave},
-           family_i={D\bibinithyphendelim W\bibinitperiod}}}%
-      }
-      \strng{namehash}{14f57d10068b356b8f2c136f3de810ce}
-      \strng{fullhash}{14f57d10068b356b8f2c136f3de810ce}
+    \entry{llvm}{misc}{}
       \field{sortinit}{L}
       \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{QMASM}
+      \field{title}{LLVM foundation}
       \verb{url}
-      \verb https://www.youtube.com/watch?v=-A1tVNTHUFw
+      \verb https://llvm.org/
       \endverb
     \endentry
     \entry{QCQI}{book}{}
@@ -502,6 +480,25 @@
       \field{title}{Forest}
       \verb{url}
       \verb https://www.rigetti.com/forest
+      \endverb
+    \endentry
+    \entry{certigrad_video}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d4aa1f86e8ee7124b731fd216d1f4d09}{%
+           family={Selsam},
+           family_i={S\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4aa1f86e8ee7124b731fd216d1f4d09}
+      \strng{fullhash}{d4aa1f86e8ee7124b731fd216d1f4d09}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Explainatory video of Certigrad}
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=-A1tVNTHUFw
       \endverb
     \endentry
     \entry{certigrad}{article}{}
